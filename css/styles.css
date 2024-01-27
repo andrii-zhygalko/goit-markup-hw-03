@@ -109,7 +109,7 @@ img {
   padding-bottom: 25.5px;
 }
 
-.header-logo {
+.logo {
   color: #2e2f42;
   letter-spacing: 0.03em;
   margin-right: 76px;
@@ -178,6 +178,10 @@ address {
   padding: 16px 32px;
   display: block;
   margin: 0 auto;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
 }
 
 .hero-button:hover,
@@ -240,7 +244,15 @@ address {
   background-color: #ffffff;
 }
 .team-img {
-  margin-bottom: 32px;
+}
+
+.team-card-descr {
+  padding: 32px 0;
+  border-radius: 0px 0px 4px 4px;
+  background: #fff;
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
 .team-item-title {
@@ -260,7 +272,6 @@ address {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  padding-bottom: 32px;
 }
 
 .portfolio {
@@ -323,6 +334,7 @@ address {
 
 .footer {
   background: #2e2f42;
+  padding: 100px 0 100px;
 }
 
 .footer-logo-colored {
@@ -333,7 +345,6 @@ address {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  padding-top: 101px;
 }
 
 .footer-logo {
@@ -342,9 +353,9 @@ address {
 }
 
 .footer a {
-  display: block;
+  display: inline-block;
   margin-bottom: 17.5px;
-  padding-top: 101.5px;
+  margin-bottom: 16px;
 }
 
 .footer-text {
@@ -354,6 +365,5 @@ address {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  padding-bottom: 100px;
   max-width: 264px;
 }
