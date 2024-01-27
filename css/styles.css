@@ -94,7 +94,7 @@ img {
   color: #404bbf;
 }
 
-.header-logo-colored {
+.logo {
   color: #4d5ae5;
   font-family: "Raleway", sans-serif;
   font-size: 18px;
@@ -102,6 +102,7 @@ img {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-right: 76px;
 }
 
 .header-logo-colored span {
@@ -109,10 +110,9 @@ img {
   padding-bottom: 25.5px;
 }
 
-.logo {
+.logo-part {
   color: #2e2f42;
   letter-spacing: 0.03em;
-  margin-right: 76px;
 }
 
 address {
@@ -241,18 +241,17 @@ address {
 }
 
 .team-item {
+  border-radius: 0px 0px 4px 4px;
   background-color: #ffffff;
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 .team-img {
 }
 
 .team-card-descr {
   padding: 32px 0;
-  border-radius: 0px 0px 4px 4px;
-  background: #fff;
-  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
-    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
-    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
 .team-item-title {
