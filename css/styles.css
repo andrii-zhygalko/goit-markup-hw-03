@@ -189,20 +189,20 @@ address {
   background: #404bbf;
 }
 
-.pros {
+.features {
   background: #fff;
 }
 
-.pros-list {
+.features-list {
   display: flex;
   gap: 24px;
 }
 
-.pros-item {
+.features-item {
   width: calc((100% - 72px) / 4);
 }
 
-.pros-item-title {
+.features-item-title {
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
@@ -211,7 +211,7 @@ address {
   margin-bottom: 8px;
 }
 
-.pros-item-text {
+.features-item-text {
   color: #434455;
   font-size: 16px;
   font-weight: 400;
